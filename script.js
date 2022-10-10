@@ -52,6 +52,7 @@ const repainting = () => {
   for (const i of pixelBoard.children) {
     i.style.backgroundColor = 'white';
   }
+  localStorage.removeItem(`pixelBoard`)
 };
 const saveColorsStorage = (box1, box2, box3) => {
   const colorsStorage = {
