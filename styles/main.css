@@ -17,3 +17,21 @@
 body {
   width: 100%;
 }
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  border: 1px solid red;
+}
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.box-pixels {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(5, 40px);
+}
