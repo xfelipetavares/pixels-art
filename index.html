@@ -12,30 +12,46 @@
     <main>
       <div class="leftSide">
         <header>
-          <h1>Pixel Art App</h1>
+          <h1>
+            Pixel Art
+            <img src="assets/brush.svg" alt="" />
+          </h1>
         </header>
         <div class="toolbox">
           <div class="input-items">
-            <button id="button-less" class="button-input-pixel-size"><img src="assets/botaoLess.svg" alt=""></button>
-            <input class="form-control" value="5" id="input-size-board" type="number" />
-            <button id="button-plus" class="button-input-pixel-size"><img src="assets/botaoPlus.svg" alt=""></button>
+            <button id="button-less" class="button-input-pixel-size"><img src="assets/botaoLess.svg" alt="" /></button>
+            <input class="form-control" value="10" id="input-size-board" type="number" />
+            <button id="button-plus" class="button-input-pixel-size"><img src="assets/botaoPlus.svg" alt="" /></button>
             <!-- <button class="btn btn-primary">Gerar</button> -->
           </div>
           <div class="buttons">
-            <button class="btn btn-primary">Limpar</button>
-            <button class="btn btn-primary">Remover Grade</button>
+            <button class="btn btn-primary" id="clear-all">Limpar Tudo</button>
+            <button class="btn btn-primary" id="grid-border">Grade</button>
           </div>
-        </div>
-        <div class="rightSide">
           <div class="board-color-palette">
-            <input class="color-palette form-control form-control-color" value="#FF0000" type="color" />
-            <input class="color-palette form-control form-control-color" value="#FFFF00" type="color" />
-            <input class="color-palette form-control form-control-color" value="#0033FF" type="color" />
-            <input class="color-palette form-control form-control-color" value="#00CC00" type="color" />
-            <input class="color-palette form-control form-control-color" value="#000000" type="color" />
-            <input class="color-palette form-control form-control-color" value="#FFFFFF" type="color" />
+            <label>
+              <input class="color-palette form-control form-control-color" value="#ff5555" type="color" />
+              <input name="colors"  class="radio-color" value="0" type="radio" />
+            </label>
+            <label>
+              <input class="color-palette form-control form-control-color" value="#8be9fd" type="color" />
+              <input name="colors" class="radio-color" value="1" type="radio" />
+            </label>
+            <label>
+              <input class="color-palette form-control form-control-color" value="#50fa7b" type="color" />
+              <input name="colors" checked class="radio-color" value="2" type="radio" />
+            </label>
+            <label>
+              <input class="color-palette form-control form-control-color" value="#000000" type="color" />
+              <input name="colors" class="radio-color" value="3" type="radio" />
+            </label>
+            <label>
+              <input class="color-palette form-control form-control-color" value="#FFFFFF" type="color" />
+              <input name="colors" class="radio-color" value="4" type="radio" />
+            </label>
           </div>
         </div>
+        <div class="rightSide"></div>
       </div>
       <div class="board-pixel"></div>
     </main>
