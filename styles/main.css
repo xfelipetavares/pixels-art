@@ -54,15 +54,13 @@ main {
 .input-items {
   width: fit-content;
   display: flex;
+  gap: 1rem;
 }
 .input-items input{
   font-size: 3rem;
-  min-width: 5rem;
+  max-width: 9rem;
   text-align: center;
   margin: auto;
-}
-.input-items button{
-  width: 100%;
 }
 .pixel {
   border: 0.1px solid rgba(0, 0, 0, 0.385);
@@ -83,6 +81,15 @@ main {
 .btn-primary {
   background-color: #ff79c6;
 }
+.button-input-pixel-size{
+  background: none;
+  border: none;
+  width: fit-content;
+}
+.button-input-pixel-size img{
+  width: 5rem;
+}
+
 
 @media screen and (max-width: 600px) {
   body {

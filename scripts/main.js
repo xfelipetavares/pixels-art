@@ -1,7 +1,7 @@
 const boardPixel = document.getElementsByClassName(`board-pixel`)[0];
 const inputSizeBoard = document.getElementById(`input-size-board`);
 const buttonPlus = document.getElementById(`button-plus`);
-const buttonSub = document.getElementById(`button-sub`);
+const buttonLess = document.getElementById(`button-less`);
 
 const boardCreator = (num) => {
   for (let index = 0; index < num * num; index++) {
@@ -19,9 +19,16 @@ const boardClear = (num) => {
   }
   return boardCreator(num);
 };
-window.onload = () => {
-  boardCreator(inputSizeBoard.value);
-  inputSizeBoard.addEventListener(`input`, () => {
-    boardClear(inputSizeBoard.value);
-  });
-};
+boardCreator(inputSizeBoard.value);
+
+buttonPlus.addEventListener(`click`, ()=>{
+  inputSizeBoard.value++
+  boardClear(inputSizeBoard.value);
+});
+buttonLess.addEventListener(`click`, ()=>{
+  inputSizeBoard.value--
+  boardClear(inputSizeBoard.value);
+});
+inputSizeBoard.addEventListener(`input`, () => {
+  boardClear(inputSizeBoard.value);
+});
