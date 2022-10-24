@@ -16,17 +16,23 @@
 }
 body {
   width: 100%;
+  height: 100%;
   background-color: #282a36;
+  color: #f8f8f2;
 }
+
 main {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
+  gap: 6rem;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   align-self: center;
   justify-self: center;
   /* border: 1px solid red; */
-  width: 100%;
+
 }
 .color-palette {
   /* border-radius: 100%; */
@@ -36,6 +42,27 @@ main {
 }
 .board-color-palette {
   display: flex;
+}
+.toolbox {
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px red soid;
+}
+.input-items {
+  width: fit-content;
+  display: flex;
+}
+.input-items input{
+  font-size: 3rem;
+  min-width: 5rem;
+  text-align: center;
+  margin: auto;
+}
+.input-items button{
+  width: 100%;
 }
 .pixel {
   border: 0.1px solid rgba(0, 0, 0, 0.385);
@@ -47,8 +74,6 @@ main {
   height: 60rem;
   border-radius: 15px;
   overflow: hidden;
-  position: absolute;
-  bottom: 0.5rem;
 }
 .form-control-color {
   height: 5rem;
@@ -59,9 +84,12 @@ main {
   background-color: #ff79c6;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   body {
-    /* background-color: red; */
+  }
+  main{
+    flex-direction: column;
+    gap: 2rem;
   }
   .board-pixel {
     width: 100vw;
