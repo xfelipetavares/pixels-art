@@ -54,17 +54,7 @@ const boardClear = (num) => {
   }
   return boardCreator(num);
 };
-const removeGrid = () => {
-  if (gridBorder.checked === true){
-    for(const i in boardPixel.children){
-      boardPixel.children[i].style = `border: none`
-    }
-  } else {
-    for(const i in boardPixel.children){
-      boardPixel.children[i].style = `border: 1px solid rgba(0, 0, 0, 0.385)`
-    }
-  }
-};
+
 // chamada de ações
 boardCreator(inputSizeBoard.value);
 buttonPlus.addEventListener(`click`, () => {
@@ -78,4 +68,4 @@ buttonLess.addEventListener(`click`, () => {
 inputSizeBoard.addEventListener(`input`, () => boardClear(inputSizeBoard.value));
 clearAll.addEventListener(`click`, () => boardClear(inputSizeBoard.value));
 boardPixel.addEventListener(`click`, () => painting());
-gridBorder.addEventListener(`click`, removeGrid)
+// gridBorder.addEventListener(`click`, ()=>{})

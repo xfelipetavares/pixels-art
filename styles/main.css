@@ -70,14 +70,6 @@ h1 img {
   display: flex;
   gap: 0.5rem;
 }
-.board-color-palette label{
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-.board-color-palette .radio-color{
-  height: 2rem;
-}
 .toolbox {
   display: flex;
   flex-direction: column;
@@ -108,8 +100,8 @@ h1 img {
   margin: auto;
 }
 .pixel {
-  background-color: white;
   border: 0.1px solid rgba(0, 0, 0, 0.385);
+  background-color: white;
 }
 .board-pixel {
   display: grid;
@@ -117,7 +109,6 @@ h1 img {
   height: 90vh;
   border-radius: 15px;
   overflow: hidden;
-  background-color: white;
 }
 .form-control-color {
   height: 5rem;
@@ -134,17 +125,6 @@ h1 img {
   padding: 0;
   border-radius: 100%;
   border: 2px solid black;
-}
-#gridremover{
-  display: flex;
-  gap: 0.3rem;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-}
-#grid-border {
-  width: 1.5rem;
-  font-size: 4rem;
 }
 .btn-primary {
   background-color: #ff79c6;
