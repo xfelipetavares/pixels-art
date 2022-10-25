@@ -109,11 +109,31 @@ h1 img {
   height: 90vh;
   border-radius: 15px;
   overflow: hidden;
+  background-color: white;
+}
+#gridremover{
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+#grid-border {
+  width: 1.5rem;
+  font-size: 4rem;
 }
 .form-control-color {
   height: 5rem;
   width: 5rem;
   border: 1px solid black;
+}
+.board-color-palette label{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.board-color-palette .radio-color{
+  height: 2rem;
 }
 .color-palette{
   border-radius: 100%;
