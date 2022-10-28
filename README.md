@@ -19,7 +19,7 @@ Most recent release: v2.5 Stable
 
 
 
-Old release: v1.3 Stable
+Old release: v1.3
 > Features:
 > - Você pode escolher dinamicamente o tamanho do seu quadro de desenho.
 > - Botão para apagar todos os blocos.
