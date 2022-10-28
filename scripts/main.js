@@ -57,11 +57,11 @@ const boardClear = (num) => {
 const removeGrid = () => {
   if (gridBorder.checked === false) {
     for (const i in boardPixel.children) {
-      boardPixel.children[i].style = `border: none`;
+      boardPixel.children[i].className = ``;
     }
   } else {
     for (const i in boardPixel.children) {
-      boardPixel.children[i].style = `border: 1px solid rgba(0, 0, 0, 0.385)`;
+      boardPixel.children[i].className = `pixel`;
     }
   }
 };
@@ -78,6 +78,5 @@ buttonLess.addEventListener(`click`, () => {
 });
 inputSizeBoard.addEventListener(`input`, () => boardClear(inputSizeBoard.value));
 clearAll.addEventListener(`click`, () => boardClear(inputSizeBoard.value));
-// boardPixel.addEventListener(`click`, () => painting());
 boardPixel.addEventListener(`click`, painting);
 gridBorder.addEventListener(`click`, removeGrid);
