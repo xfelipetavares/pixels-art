@@ -47,6 +47,7 @@ const boardCreator = (num) => {
   boardPixel.style.gridTemplateColumns = `repeat(${num}, 1fr)`;
   boardPixel.style.gridTemplateRows = `repeat(${num}, 1fr)`;
 };
+
 const boardClear = (num) => {
   while (boardPixel.children.length != 0) {
     const childBoard = boardPixel.firstElementChild;
@@ -54,6 +55,7 @@ const boardClear = (num) => {
   }
   return boardCreator(num);
 };
+
 const removeGrid = () => {
   if (gridBorder.checked === false) {
     for (const i in boardPixel.children) {
@@ -66,7 +68,6 @@ const removeGrid = () => {
   }
 };
 
-// chamada de ações
 boardCreator(inputSizeBoard.value);
 buttonPlus.addEventListener(`click`, () => {
   inputSizeBoard.value++;
@@ -76,6 +77,7 @@ buttonLess.addEventListener(`click`, () => {
   inputSizeBoard.value--;
   boardClear(inputSizeBoard.value);
 });
+
 inputSizeBoard.addEventListener(`input`, () => boardClear(inputSizeBoard.value));
 clearAll.addEventListener(`click`, () => boardClear(inputSizeBoard.value));
 boardPixel.addEventListener(`click`, painting);
