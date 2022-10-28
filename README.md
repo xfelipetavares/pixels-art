@@ -2,7 +2,7 @@
 ## Solte suas ideias nesse App
 ### by [Felipe Tavares](https://www.linkedin.com/in/xfelipetavares/)
 
-Most recent release: v2.5 Stable
+Most recent release: v2.6 Stable
 > Features:
 > - Desfrute de um design totalmente renovado 😎
 > - PODE DESENHAR NO CELULAR TAMBÉM! Foi implementado um design totalmente responsivo tanto pra desktops quanto tablets e celulares de todos tamanhos (inclusive o iPhone 4 😌)!! Isso não é demais? 😍
@@ -14,7 +14,8 @@ Most recent release: v2.5 Stable
 ### Desktop Version
 ![Desktop Version](https://user-images.githubusercontent.com/33338074/198673677-1ba9e2ed-e15f-42ec-868a-6ed37783ec2e.png)
 ### Mobile Version
-![Mobile Version](https://user-images.githubusercontent.com/33338074/198676628-6ef5041a-7449-4598-ad0b-5bb8eeb7adc4.png)
+![Mobile Version](https://user-images.githubusercontent.com/33338074/198680023-3bcc40e6-9e96-4ed9-bd46-c74988089a81.png)
+
 
 
 
