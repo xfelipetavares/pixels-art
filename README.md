@@ -15,9 +15,14 @@ Most recent release: v2.6 Stable
 >  - Você pode agora também, remover a grade para tirar um print legal do seu desenho, é só desmarcar a caixinha 😎😉
 >  - Foi corrigido uma cacetada de bugs kkkk 😏
 
-### Desktop Version
+### Desktop Version (Beta)
+![Screen Shot 2022-11-08 at 20 32 18](https://user-images.githubusercontent.com/33338074/200701002-c4366935-2527-4591-bda5-549f853a0116.png)
+![Screen Shot 2022-11-08 at 20 31 46](https://user-images.githubusercontent.com/33338074/200701011-51d09623-3309-440c-a2cb-ba3b781b440c.png)
+
+
+### Desktop Version (Browser)
 ![Desktop Version](https://user-images.githubusercontent.com/33338074/198673677-1ba9e2ed-e15f-42ec-868a-6ed37783ec2e.png)
-### Mobile Version
+### Mobile Version (Browser)
 ![Mobile Version](https://user-images.githubusercontent.com/33338074/198680023-3bcc40e6-9e96-4ed9-bd46-c74988089a81.png)
 
 
