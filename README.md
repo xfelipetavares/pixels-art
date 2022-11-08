@@ -2,6 +2,10 @@
 ## Solte suas ideias nesse App
 ### by [Felipe Tavares](https://www.linkedin.com/in/xfelipetavares/)
 
+> - Browser Online Version: | [Stable 2.6](https://xfelipetavares.github.io/pixels-art/)
+> - Desktop Offline Version: Você pode consultar para macOS e Linux | [Beta](https://github.com/xfelipetavares/pixels-art/releases)
+
+#
 Most recent release: v2.6 Stable
 > Features:
 > - Desfrute de um design totalmente renovado 😎
