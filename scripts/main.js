@@ -81,4 +81,16 @@ buttonLess.addEventListener(`click`, () => {
 inputSizeBoard.addEventListener(`input`, () => boardClear(inputSizeBoard.value));
 clearAll.addEventListener(`click`, () => boardClear(inputSizeBoard.value));
 boardPixel.addEventListener(`click`, painting);
+boardPixel.addEventListener('dragover', painting);
 gridBorder.addEventListener(`click`, removeGrid);
+
+// document.onkeypress = (e) => {
+//   console.log(e);
+//   boardPixel.addEventListener('mousemove', painting);
+// };
+// window.addEventListener(`keydown`, ()=>{
+// })
+// window.addEventListener(`keyup`, ()=>{
+//   boardPixel.removeEventListener('mousemove', painting);
+// })
+

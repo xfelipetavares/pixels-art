@@ -163,6 +163,13 @@ h1 img {
 .leftSide{
   text-align: center;
 }
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+}
 
 @media screen and (max-width: 1024px) {
   main{
@@ -175,5 +182,12 @@ h1 img {
     width: 95vw;
     height: 95vw;
     margin-bottom: 1rem;
+  }
+  #footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -25px;
   }
 }
